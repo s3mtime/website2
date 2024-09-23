@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+}
+
+/* Header Section */
+header {
+    background-color: #3c40c6;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #575fcf;
+    border-radius: 5px;
+}
+
+/* Main Section */
+section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #3c40c6;
+    margin-bottom: 20px;
+}
+
+section p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3c40c6;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+section ul li:hover {
+    background-color: #575fcf;
+}
+
+/* Contact Section */
+section a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3c40c6;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+section a:hover {
+    background-color: #3c40c6;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #3c40c6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+footer p a {
+    color: #ffdd59;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer p a:hover {
+    color: white;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header nav a {
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header nav a {
+        font-size: 14px;
+        margin: 0 5px;
+    }
+
+    section h2 {
+        font-size: 20px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+}
